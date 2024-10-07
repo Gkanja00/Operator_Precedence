@@ -5,18 +5,18 @@
 
 
 
-# radius = int(input("Enter the radius of the sphere: "))
-# volume = (4/3) * (22/7) * radius**2
-# print(f"The volume of the sphere with radius{radius} is: {volume:.2f}")
-    
+radius = int(input("Enter the radius of the sphere: "))
+volume = (4/3) * (22/7) * radius**2
+print(f"The volume of the sphere with radius{radius} is: {volume:.2f}")
+   
 
  # Create a program to calculate the area of a triangle (1/2 * base * height). 
 # Base and height should be entered using the keyboard. 
 
-# base = int(input("Enter the base of the triangle: "))
-# height = int(input("Enter the height of the triangle: "))
-# area = (1/2 * base * height)                       
-# print(f"The area of the triangle with base {base} and height {height} is: {area}")
+base = int(input("Enter the base of the triangle: "))
+height = int(input("Enter the height of the triangle: "))
+area = (1/2 * base * height)                       
+print(f"The area of the triangle with base {base} and height {height} is: {area}")
 
 # WITI has tasked you to automate a simple grading system. 
 # As a python student, write a program using to display the grades that 
@@ -29,27 +29,27 @@
 # 50% - 59% Grade is E  
 # < 50% Fail 
 
-# def calculate_grades():
-#     print("\n...Student Grade Calculations...")
-#     mark = int(input("Enter mark scored:\t"))
+def calculate_grades():
+   print("\n...Student Grade Calculations...")
+   mark = int(input("Enter mark scored:\t"))
+  
+   if mark>= 90  and mark <=100:
+      print(' Grade is A')
 
-#     if mark>= 90  and mark <=100:
-#         print(' Grade is A')
+   elif mark>=80 and mark <= 89:
+         print('Grade is B')
 
-#     elif mark>=80 and mark <= 89:
-#         print('Grade is B')
+   elif  mark >=70 and mark<=79:
+         print('Grade is C')
 
-#     elif  mark >=70 and mark<=79:
-#         print('Grade is C')
+   elif  mark >=60 and mark<=69:
+         print('Grade is D')
 
-#     elif  mark >=60 and mark<=69:
-#         print('Grade is D')
+   elif  mark >=50 and mark<=59:
+        print('Grade is E')
 
-#     elif  mark >=50 and mark<=59:
-#         print('Grade is E')
-
-#     else:
-#         print('Fail')
+   else:
+         print('Fail')
     
 # calculate_grades()
 
